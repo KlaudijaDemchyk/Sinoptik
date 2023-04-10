@@ -40,7 +40,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
                     const conditionImageUrl = conditionImages[data.current.condition.text];
 
-                    const html = `<div class="card">
+                    const html = `<div class="card z-depth-5">
                             <h2 class="card-city">${data.location.name} <span>${data.location.country}</span></h2>
                             <div class="card-weather">
                                 <div class="card-value">${data.current.temp_c}<sup>°c</sup></div>
