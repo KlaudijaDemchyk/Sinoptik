@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather forecast</title>
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+</head>
+<body>
+
+<header class="card-panel teal lighten-4" style="width: 100%; margin-left: -8px; margin-right: -8px; padding-left: 8px; padding-right: 8px;">
+    <h1 class="title">Weather forecast</h1>
+    <form class="form">
+        <i class="material-icons prefix"></i>
+        <input class="input" type="text" placeholder="Enter the name of the city" id="inputCity" >
+        <button class="btn">Show</button>
+    </form>
+</header>
+
+<div class="card z-depth-5">
+    <h2 class="card-city">Bern <span>Swiss</span></h2>
+
+    <div class="card-weather">
+        <div class="card-value">14<sup>°c</sup></div>
+        <img class="card-img" src="./img/example.png" alt="Weather">
+    </div>
+
+    <div class="card-description">Cloud</div>
+</div>
+
+<footer class="footer">
+
+</footer>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+<script src="./main.js"></script>
+</body>
+</html>
