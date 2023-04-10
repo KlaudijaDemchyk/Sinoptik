@@ -48,7 +48,6 @@ document.addEventListener('DOMContentLoaded', function() {
                             </div>
                             <div class="card-description">${data.current.condition.text}</div>
                         </div>`;
-
                     header.insertAdjacentHTML('afterend', html);
                 }
             });
