@@ -29,7 +29,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-
+    padding: 10px;
 }
 
 .form {
@@ -37,48 +37,41 @@ body {
     justify-content: space-between;
     width: 460px;
     height: 54px;
-    background: #ffffff;
     border-radius: 6px;
+    padding: 10px;
 }
 
-.input {
+.input1 {
     flex-grow: 1;
-    padding: 15px;
+    padding: 15px 20px;
     font-weight: 300;
     font-size: 20px;
     line-height: 1;
     color: #000000;
     width: 70%;
 }
-.input::placeholder {
-    padding-left: 40px;
+
+.input1::placeholder {
+    padding-left: 10px;
+    color: white;
 }
 
-.input:focus-within {
-    padding-left: 40px;
-    padding-right: 40px;
-}
 .btn {
     margin-top: 5px;
     width: 125px;
     height: 54px;
     background: #e5464f;
     border-radius: 6px;
-
     font-weight: 500;
     font-size: 20px;
     line-height: 1;
     color: #fff;
-
     transition: background-color 0.2s ease-in;
 }
 
 .btn:hover {
     background: #f5313b;
 }
-
-/* Card */
-
 .card {
     position: relative;
     display: flex;
@@ -137,6 +130,8 @@ body {
 }
 
 .card-img {
+    width: 100px;
+    height: 100px;
 }
 
 .card-description {
