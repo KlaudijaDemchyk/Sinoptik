@@ -12,6 +12,7 @@ document.addEventListener('DOMContentLoaded', function() {
         'Rain': './img/Rain.jpg',
         'Light rain': './img/Light_rain.jpg',
         'Snow': './img/Snow.jpg',
+        'Mist': './img/Mist.webp',
     };
 
     form.onsubmit = function (e) {
